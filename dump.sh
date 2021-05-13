@@ -6,4 +6,5 @@ dotnet downloader/DepotDownloader.dll -os windows -osarch 64 -app 252490 -fileli
 
 echo Running Il2CppDumper
 
+export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
 dumper/Il2CppDumper rust/GameAssembly.dll rust/RustClient_Data/il2cpp_data/Metadata/global-metadata.dat ./

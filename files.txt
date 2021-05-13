@@ -1,2 +1,3 @@
 GameAssembly.dll
 global-metadata.dat
+RustClient_Data/il2cpp_data/Metadata/global-metadata.dat
